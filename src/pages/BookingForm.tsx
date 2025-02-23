@@ -36,7 +36,6 @@ const rooms = [
     images: ["../src/assets/images/rooms/IMG_0767.jpeg"],
   },
 ];
-
 const BookingForm = () => {
   const { t } = useLanguage();
   const { roomId } = useParams();
@@ -238,7 +237,8 @@ const BookingForm = () => {
                 </h3>
                 <PayPalScriptProvider
                   options={{
-                    clientId: import.meta.env.PAYPAL_CLIENT_ID,
+                    clientId:
+                      "Afmj4DrSs6NoDQAM24YYg-kreWOc_jxGQDadZ2pzna84_TjXtCMMUrmnyzVOQQxZlCFnCl98GsyfBxDN",
                     currency: "USD",
                     // disableFunding: "credit,card",
                   }}
