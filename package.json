@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://irisulaj.github.io/grand_hotel",
+  "homepage": "https://irisulaj.github.io/grand_hotel/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
