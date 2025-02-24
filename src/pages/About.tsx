@@ -25,12 +25,12 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="./public/images/lounge/IMG_0126.jpeg"
+              src="/images/lounge/IMG_0126.jpeg"
               alt="Hotel Lobby"
               className="w-full h-64 object-cover self-start"
             />
             <img
-              src="./public/images/lounge/IMG_0129.jpeg"
+              src="/images/lounge/IMG_0129.jpeg"
               alt="Hotel Lounge"
               className="w-full h-64 object-cover self-end"
             />
@@ -92,17 +92,17 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <img
-            src="./public/images/lounge/IMG_0788.jpeg"
+            src="/images/lounge/IMG_0788.jpeg"
             alt="Restaurant"
             className="w-full h-72 object-cover"
           />
           <img
-            src="./public/images/lounge/IMG_0787.jpeg"
+            src="/images/lounge/IMG_0787.jpeg"
             alt="Food Service"
             className="w-full h-72 object-cover"
           />
           <img
-            src="./public/images/lounge/IMG_0769.jpeg"
+            src="/images/lounge/IMG_0769.jpeg"
             alt="Conference Room"
             className="w-full h-72 object-cover"
           />
@@ -110,17 +110,17 @@ const About = () => {
         <br />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <img
-            src="./public/images/lounge/IMG_0771.jpeg"
+            src="/images/lounge/IMG_0771.jpeg"
             alt="Restaurant"
             className="w-full h-72 object-cover"
           />
           <img
-            src="./public/images/lounge/IMG_0782.jpeg"
+            src="/images/lounge/IMG_0782.jpeg"
             alt="Food Service"
             className="w-full h-72 object-cover"
           />
           <img
-            src="./public/images/lounge/IMG_0784.jpeg"
+            src="/images/lounge/IMG_0784.jpeg"
             alt="Conference Room"
             className="w-full h-72 object-cover"
           />
