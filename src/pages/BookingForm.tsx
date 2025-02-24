@@ -15,9 +15,9 @@ const rooms = [
     name: "Double Room King Size Bed",
     price: 50,
     images: [
-      "./grand_hotel/images/rooms/IMG_0757.jpeg",
-      "./grand_hotel/images/rooms/IMG_0759.jpeg",
-      "./grand_hotel/images/rooms/IMG_0776.jpeg",
+      "/grand_hotel/images/rooms/IMG_0757.jpeg",
+      "/grand_hotel/images/rooms/IMG_0759.jpeg",
+      "/grand_hotel/images/rooms/IMG_0776.jpeg",
     ],
   },
   {
@@ -25,15 +25,15 @@ const rooms = [
     name: "Executive Room",
     price: 85,
     images: [
-      "./grand_hotel/images/rooms/IMG_0778.jpeg",
-      "./grand_hotel/images/rooms/IMG_0789.jpeg",
+      "/grand_hotel/images/rooms/IMG_0778.jpeg",
+      "/grand_hotel/images/rooms/IMG_0789.jpeg",
     ],
   },
   {
     id: 3,
     name: "Single Room",
     price: 45,
-    images: ["./grand_hotel/images/rooms/IMG_0767.jpeg"],
+    images: ["/grand_hotel/images/rooms/IMG_0767.jpeg"],
   },
 ];
 const BookingForm = () => {
