@@ -18,10 +18,10 @@ const Home = () => {
   const { t } = useLanguage();
 
   const carouselImages = [
-    ".grand_hotel/src/assets/images/IMG_0124.jpeg",
-    ".grand_hotel/src/assets/images/IMG_0125.jpeg",
-    ".grand_hotel/src/assets/images/IMG_0132.jpeg",
-    ".grand_hotel/src/assets/images/IMG_0133.jpeg",
+    "./src/assets/images/IMG_0124.jpeg",
+    "./src/assets/images/IMG_0125.jpeg",
+    "./src/assets/images/IMG_0132.jpeg",
+    "./src/assets/images/IMG_0133.jpeg",
   ];
 
   const services = [
