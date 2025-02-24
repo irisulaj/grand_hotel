@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./context/LanguageContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ import BookingForm from "./pages/BookingForm";
 function App() {
   return (
     <LanguageProvider>
-      <Router>
+      <HashRouter>
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-grow">
@@ -26,7 +26,7 @@ function App() {
           </main>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     </LanguageProvider>
   );
 }
