@@ -10,9 +10,9 @@ const rooms = [
     name: "Double Room King Size Bed",
     price: 50,
     images: [
-      "./src/assets/images/rooms/IMG_0757.jpeg",
-      "./src/assets/images/rooms/IMG_0759.jpeg",
-      "./src/assets/images/rooms/IMG_0776.jpeg",
+      "./public/images/rooms/IMG_0757.jpeg",
+      "./public/images/rooms/IMG_0759.jpeg",
+      "./public/images/rooms/IMG_0776.jpeg",
     ],
     amenities: ["King Size Bed", "City View", "Mini Bar", "Room Service"],
     rating: 4.8,
@@ -23,8 +23,8 @@ const rooms = [
     name: "Double Single Room",
     price: 85,
     images: [
-      "./src/assets/images/rooms/IMG_0778.jpeg",
-      "./src/assets/images/rooms/IMG_0789.jpeg",
+      "./public/images/rooms/IMG_0778.jpeg",
+      "./public/images/rooms/IMG_0789.jpeg",
     ],
     amenities: [
       "Queen Size Bed",
@@ -39,7 +39,7 @@ const rooms = [
     id: 3,
     name: "Single Room",
     price: 45,
-    images: ["./src/assets/images/rooms/IMG_0767.jpeg"],
+    images: ["./public/images/rooms/IMG_0767.jpeg"],
     amenities: [
       "Master Bedroom",
       "Living Room",

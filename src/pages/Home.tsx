@@ -18,46 +18,46 @@ const Home = () => {
   const { t } = useLanguage();
 
   const carouselImages = [
-    "./src/assets/images/IMG_0124.jpeg",
-    "./src/assets/images/IMG_0125.jpeg",
-    "./src/assets/images/IMG_0132.jpeg",
-    "./src/assets/images/IMG_0133.jpeg",
+    "./public/images/IMG_0124.jpeg",
+    "./public/images/IMG_0125.jpeg",
+    "./public/images/IMG_0132.jpeg",
+    "./public/images/IMG_0133.jpeg",
   ];
 
   const services = [
     {
       icon: <BedDoubleIcon className="w-8 h-8" />,
-      image: "../src/assets/images/services/IMG_0778.jpeg",
+      image: "../public/images/services/IMG_0778.jpeg",
       title: t("home.services.accommodation"),
       description: t("home.services.accommodation.subtitle"),
     },
     {
       icon: <Utensils className="w-8 h-8" />,
-      image: "../src/assets/images/services/IMG_0771.jpeg",
+      image: "../public/images/services/IMG_0771.jpeg",
       title: t("home.services.dining"),
       description: t("home.services.dining.subtitle"),
     },
     {
       icon: <Baby className="w-8 h-8" />,
-      image: "../src/assets/images/services/jumbo.png",
+      image: "../public/images/services/jumbo.png",
       title: t("home.services.playground"),
       description: t("home.services.playground.subtitle"),
     },
     {
       icon: <Users className="w-8 h-8" />,
-      image: "../src/assets/images/services/conference.png",
+      image: "../public/images/services/conference.png",
       title: t("home.services.conference"),
       description: t("home.services.conference.subtitle"),
     },
     {
       icon: <Car className="w-8 h-8" />,
-      image: "../src/assets/images/services/parking.png",
+      image: "../public/images/services/parking.png",
       title: t("home.services.parking"),
       description: t("home.services.parking.subtitle"),
     },
     {
       icon: <Wifi className="w-8 h-8" />,
-      image: "../src/assets/images/services/IMG_0788.jpeg",
+      image: "../public/images/services/IMG_0788.jpeg",
       title: t("home.services.wifi"),
       description: t("home.services.wifi.subtitle"),
     },
