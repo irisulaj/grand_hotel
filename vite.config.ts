@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
-  base: "/grand_hotel/",
+  base: "/grand_hotel",
 });
