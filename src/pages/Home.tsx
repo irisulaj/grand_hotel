@@ -18,46 +18,46 @@ const Home = () => {
   const { t } = useLanguage();
 
   const carouselImages = [
-    "/images/IMG_0124.jpeg",
-    "/images/IMG_0125.jpeg",
-    "/images/IMG_0132.jpeg",
-    "/images/IMG_0133.jpeg",
+    "/grand_hotel/images/IMG_0124.jpeg",
+    "/grand_hotel/images/IMG_0125.jpeg",
+    "/grand_hotel/images/IMG_0132.jpeg",
+    "/grand_hotel/images/IMG_0133.jpeg",
   ];
 
   const services = [
     {
       icon: <BedDoubleIcon className="w-8 h-8" />,
-      image: "./images/services/IMG_0778.jpeg",
+      image: "/grand_hotel/images/services/IMG_0778.jpeg",
       title: t("home.services.accommodation"),
       description: t("home.services.accommodation.subtitle"),
     },
     {
       icon: <Utensils className="w-8 h-8" />,
-      image: "./images/services/IMG_0771.jpeg",
+      image: "/grand_hotel/images/services/IMG_0771.jpeg",
       title: t("home.services.dining"),
       description: t("home.services.dining.subtitle"),
     },
     {
       icon: <Baby className="w-8 h-8" />,
-      image: "./images/services/jumbo.png",
+      image: "/grand_hotel/images/services/jumbo.png",
       title: t("home.services.playground"),
       description: t("home.services.playground.subtitle"),
     },
     {
       icon: <Users className="w-8 h-8" />,
-      image: "./images/services/conference.png",
+      image: "/grand_hotel/images/services/conference.png",
       title: t("home.services.conference"),
       description: t("home.services.conference.subtitle"),
     },
     {
       icon: <Car className="w-8 h-8" />,
-      image: "./images/services/parking.png",
+      image: "/grand_hotel/images/services/parking.png",
       title: t("home.services.parking"),
       description: t("home.services.parking.subtitle"),
     },
     {
       icon: <Wifi className="w-8 h-8" />,
-      image: "./images/services/IMG_0788.jpeg",
+      image: "/grand_hotel/images/services/IMG_0788.jpeg",
       title: t("home.services.wifi"),
       description: t("home.services.wifi.subtitle"),
     },
