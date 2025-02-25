@@ -1,18 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import {
-  Car,
   Star,
-  Users,
-  Wifi,
-  Space as Spa,
-  Utensils,
   Baby,
+  Utensils,
+  Wifi,
+  Car,
+  Users,
   BedDoubleIcon,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import ImageCarousel from "../components/ImageCarousel";
-import About from "../pages/About";
 
 const Home = () => {
   const { t } = useLanguage();
@@ -62,14 +58,19 @@ const Home = () => {
       description: t("home.services.wifi.subtitle"),
     },
   ];
+
   return (
     <div>
-      <div>
+      <div className="h-[85vh] sm:h-[90vh] lg:h-[95vh]">
         <ImageCarousel
           images={carouselImages}
-          className="h-full [&>div]:h-full [&_img]:h-full"
+          className="h-full"
           autoplay={true}
           delayMs={6000}
+          title={t("home.welcome")}
+          subtitle={t("home.subtitle")}
+          buttonText={t("home.discover")}
+          buttonLink="/rooms"
         />
       </div>
 

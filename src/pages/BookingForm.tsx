@@ -33,7 +33,10 @@ const rooms = [
     id: 3,
     name: "Single Room",
     price: 45,
-    images: ["/grand_hotel/images/rooms/IMG_0767.jpeg"],
+    images: [
+      "/grand_hotel/images/rooms/IMG_0767.jpeg",
+      "/grand_hotel/images/rooms/IMG_0768.jpeg",
+    ],
   },
 ];
 const BookingForm = () => {
